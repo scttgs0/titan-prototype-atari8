@@ -1,0 +1,54 @@
+
+;--------------------------------------
+; System equates
+;--------------------------------------
+
+ADLI            = $0080
+AVB             = $0040
+ALMS            = $0040
+AHSCR           = $0010
+AJMP            = $0001
+AEMPTY1         = $0000
+AEMPTY2         = $0010
+AEMPTY4         = $0030
+AEMPTY8         = $0070
+
+RTCLOK          = $0012
+
+VDSLST          = $0200
+
+HPOSP0          = $D000
+HPOSP1          = $D001
+HPOSP2          = $D002
+HPOSP3          = $D003
+HPOSM3          = $D007
+TRIG0           = $D010
+COLPM0          = $D012
+COLPM1          = $D013
+COLPM2          = $D014
+COLPF0          = $D016
+COLPF1          = $D017
+COLPF2          = $D018
+COLPF3          = $D019
+COLBK           = $D01A
+PRIOR           = $D01B
+GRACTL          = $D01D
+
+KBCODE          = $D209
+RANDOM          = $D20A
+
+PORTA           = $D300
+
+DMACTL          = $D400
+DLISTL          = $D402
+DLISTH          = $D403
+HSCROL          = $D404
+PMBASE          = $D407
+CHBASE          = $D409
+WSYNC           = $D40A
+VCOUNT          = $D40B
+NMIEN           = $D40E
+
+SETVBV          = $E45C
+XITVBV          = $E462
+SIOINV          = $E465

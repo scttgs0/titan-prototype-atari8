@@ -1,0 +1,15 @@
+
+;--------------------------------------
+; Game equates
+;--------------------------------------
+
+csetMountains           = $3000
+csetCraters             = $3400
+
+gfxSaturn               = $3800
+
+scrnPlayfield           = $4000
+scrnMountain            = $4800
+
+csetAnim1               = $5000
+csetAnim2               = $5400

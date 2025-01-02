@@ -1,0 +1,56 @@
+
+;--------------------------------------
+; Zero-page equates
+;--------------------------------------
+
+zpAnimTimer             = $0080
+zpAnimSRC1              = $0081         ; [word]
+zpAnimSRC2              = $0083         ; [word]
+zpAnimSRC3              = $0085         ; [word]
+zpAnimSRC4              = $0087         ; [word]
+
+zpDEST                  = $0089         ; [word]
+zpPartition             = $008B
+
+zpPlayfieldSRC          = $008C         ; [word]
+zpPlayfieldDEST         = $008E         ; [word]
+
+zpPreserveRegY          = $0090
+zp91_r1_3               = $0091
+zp92_r1_127             = $0092
+zpMissilePosX           = $0093
+zp94                    = $0094
+zpSpr3PosX              = $0095
+
+zpRasterTrigger2        = $0098         ; [3-bytes]
+zp9B_3elem              = $009B         ; [3-bytes]
+zpSpr0PosX              = $009E         ; [3-bytes]
+zpRasterTrigger0        = $00A1         ; [3-bytes]
+zpA4_3elem              = $00A4         ; [3-bytes]
+zpSpr2PosX              = $00A7         ; [3-bytes]
+zpRasterTrigger1        = $00AA         ; [3-bytes]
+zpAD_3elem              = $00AD         ; [3-bytes]
+
+zpSquadQty              = $00B0
+zpLastKeystroke         = $00B1
+zpPtrDLIST              = $00B2         ; [word]
+zpPalette               = $00B4         ; [9-bytes]
+zpB7                    = $00B7
+zpBD                    = $00BD
+zpBE                    = $00BE
+zpBF                    = $00BF
+zpC0                    = $00C0
+
+zpScrollX               = $00C1         ; [6-bytes][$C1:C6]
+
+zpPrevTrigger           = $00C7
+
+zpC8                    = $00C8
+zpC9                    = $00C9
+zpCA                    = $00CA
+
+zpShip0PosY             = $00CB
+zpShip1PosY             = $00CC
+zpShip2PosY             = $00CD
+
+zpPriority              = $00CE         ; [9-bytes][$CE:D6]
