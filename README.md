@@ -5,7 +5,7 @@ This game prototype, targeting the Atari 8-bit platform, has been reversed-engin
 
     Binary was provided by: Lee Pappas (A.N.A.L.O.G. Computing)
     Recovered by: Kay Savetz
-    Author: unknown
+    Author: Lee Pappas with Tom Hudson
 
 ![Fort Apocalypse](media/atari004.png)
 
