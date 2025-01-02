@@ -4,7 +4,7 @@
 ;----------------------------------------------------
 ;   Provided by: Lee Pappas of A.N.A.L.O.G. Computing
 ;   Recovered by: Kay Savetz
-;   Author: unknown
+;   Author: Lee Pappas with Tom Hudson
 ;----------------------------------------------------
 
 
